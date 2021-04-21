@@ -1,0 +1,40 @@
+$font-main:#08d665;
+
+.appbar{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+    margin: 0px;
+    padding-right: 300px;
+    font-family: 'Poppins', sans-serif;
+
+    & a{
+        outline: none;
+        text-decoration: none;
+        margin: 20px;
+        font-weight: 700;
+        color: #fff;
+      font-size: 13px;
+      letter-spacing: 1px;
+      transition: all 0.4s;
+  &:hover{
+      color: $font-main;
+
+  }
+
+    }
+    .logo{
+        width: 80%;
+        display: flex;
+       align-items: center;
+       padding-left: 300px;
+       & h1{
+           color: $font-main;
+          
+       }
+    }
+}

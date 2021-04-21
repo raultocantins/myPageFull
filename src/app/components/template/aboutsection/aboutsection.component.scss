@@ -1,0 +1,54 @@
+$font-main:#08d665;
+
+.about{
+    height: 600px;
+    
+
+background-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+padding: 0px 50px;
+    .row{
+
+
+    & h3{
+        margin: 0px;
+        color: $font-main;
+        font-size: 27px;
+    }
+    & h1{
+        color: #fff;
+        font-size: 60px;
+        margin: 10px;
+    }
+    & p{
+        color: #fff;
+        text-align: left;
+    }
+     & button{
+         width: 130px;
+         height: 50px;
+         border-radius: 30px;
+         color: #fff;
+         border-color:#fff ;
+         background-color: $font-main;
+         font-weight: 700;
+         margin-top: 25px;
+         outline: none;
+     }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    .imgprofile{
+        height: 100%;
+      & img{
+          height: 100%;
+      }
+    }
+   }
+    
+
+}

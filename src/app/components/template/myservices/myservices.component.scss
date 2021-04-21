@@ -1,0 +1,67 @@
+$font-main:#08d665;
+.myservices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    & h1{
+        color: #fff;
+        font-size: 40px;
+        & strong{
+            color: $font-main;
+        }
+    }
+    & .services{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+     
+     
+        & div{
+
+            border: 1px solid #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            width: 290px;
+            height: 230px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            transition: all 0.3s ease-in-out 0s;
+            &:hover{
+               border:1px solid $font-main;
+               
+               & h1{
+                   color: $font-main;
+               }
+               & p{
+                color: $font-main;
+               }
+            }
+            & h1{
+                font-size: 20px;
+                transition: all 0.3s ease-in-out 0s;
+                color: #fff;
+                font-weight: bold;
+               
+            }
+            & p{
+                color: #fff;
+                margin: 0px 30px;
+                transition: all 0.3s ease-in-out 0s;
+            }
+            & img{
+                background-image: url('../../../../assets/service-icon-bg.svg');
+                background-size: cover;
+                height: 70px;
+                width: 100px;
+            }
+        }
+    }
+}

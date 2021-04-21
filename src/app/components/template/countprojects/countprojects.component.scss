@@ -1,0 +1,27 @@
+$font-main:#08d665;
+.countprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 100px 0px;
+
+  & div{
+      border: 1px solid #fff;
+      margin: 20px;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 10px;
+      & h1{
+          margin: 10px 0px;
+          color: $font-main;
+          font-size: 38px;
+      }
+    & p{
+        margin: 0px 0px 10px 0px;
+        font-size: 15px;
+    }
+    }
+}
