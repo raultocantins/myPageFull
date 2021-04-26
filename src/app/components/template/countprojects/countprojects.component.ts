@@ -10,6 +10,14 @@ export class CountprojectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+   
+
+
   }
+
+ Increment():void {
+ 
+  }
+
 
 }
